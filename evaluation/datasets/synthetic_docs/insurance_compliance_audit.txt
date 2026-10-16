@@ -1,0 +1,28 @@
+Insurance Provider Compliance Audit — Regional Summary
+
+Audit Period: Q1 2025 (January — March)
+Auditor: Regional Healthcare Compliance Office
+Date Published: March 20, 2025
+
+Provider: BlueCrest Health Insurance
+Claims Processed (Riverside General + St. Marcus): 4,217
+Claims Denied: 312 (7.4% denial rate, up from 5.1% in Q4 2024)
+
+Notable Denial Patterns:
+- Prior authorization failures: 48% of denials. BlueCrest tightened pre-authorization requirements for chemotherapy and advanced imaging effective January 2025 without adequate provider notification.
+- Case Example: Maria Santos (Policy #BC-502716) — Cyclophosphamide claim denied despite completed PET-CT staging. Denial cited missing documentation that was in fact submitted but not processed by BlueCrest within their own 5-day review window. Peer-to-peer review between Dr. Priya Sharma and BlueCrest Medical Director Dr. Howard Chen is pending.
+
+Provider: Meridian Life Coverage
+Claims Processed: 3,891
+Claims Denied: 198 (5.1% denial rate, stable)
+
+Notable Cases:
+- Clara Nguyen (Policy #MLC-773012): ICU stay approved retroactively after initial denial. Meridian initially classified the adverse drug reaction as a "preventable event" and attempted to shift liability to Riverside General. Hospital Risk Management successfully appealed citing systemic HIE data failure.
+- David Kowalski (Policy #MLC-881204): Emergency department and ICU claims approved without issue. Ongoing Warfarin management claims under review for medical necessity documentation.
+
+Provider: National Care Alliance
+Claims Processed: 1,204
+Claims Denied: 61 (5.1%)
+- Robert Fitzgerald (Policy #NCA-558190): Inter-facility transfer from Riverside to St. Marcus approved. Ongoing EEG monitoring and MRI claims pending review.
+
+Recommendation: Escalate BlueCrest denial rate trend to the Regional Health Authority for formal inquiry.

@@ -1,0 +1,26 @@
+Patient Safety Committee Meeting Minutes — Riverside General Hospital
+
+Meeting Date: March 14, 2025
+Attendees: Dr. James O'Brien (Chair), Dr. Emily Carter, Dr. Rajesh Menon, Dr. Anita Desai, Dr. Angela Wu (Chief Pharmacist), Patricia Holloway (Nursing Director), Mark Rivera (Risk Management)
+
+Agenda Item 1: Adverse Drug Reaction — Clara Nguyen (ADR-2025-0047)
+Dr. O'Brien presented the case of Mrs. Nguyen's severe bradycardia caused by an undisclosed Metoprolol-Diltiazem interaction. Root cause analysis identified two systemic failures:
+a) Medication reconciliation at admission did not capture home medications from external providers
+b) The regional Health Information Exchange (HIE) had outdated records from Lakewood Community Clinic
+
+Action Items:
+- Implement mandatory pharmacy verification of external medication lists within 4 hours of admission
+- Submit formal request to Lakewood Community Clinic for timely HIE updates
+- Dr. Wu to audit all current inpatients for undocumented medication interactions
+
+Agenda Item 2: Lab Equipment Failure Impact
+Dr. Desai reported that the TechVita HemaFlow 9000 malfunction affected results for 23 patients over 72 hours. Three cases had clinically significant impacts (Matthews, Nguyen, Fitzgerald). Dr. Carter noted that John Matthews' antibiotic therapy could not be narrowed for 3 extra days, increasing C. difficile risk and extending his hospital stay by an estimated 2 days.
+
+Action Items:
+- Pursue backup analyzer contract with NovaCare Equipment
+- Implement manual backup protocols for critical lab tests during equipment downtime
+
+Agenda Item 3: Pharmacy Supply Chain
+Dr. Wu reported ongoing shortages in Azithromycin IV and Levetiracetam IV from primary suppliers. Emergency procurement costs exceeded $47,000 for March alone.
+
+Next Meeting: March 28, 2025

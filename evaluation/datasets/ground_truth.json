@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "question": "What sequence of failures led to Clara Nguyen's ICU transfer on March 9, and which external healthcare facility was responsible for the outdated medication data that contributed to the adverse event?",
+    "ground_truth_answer": "Clara Nguyen was prescribed Metoprolol by Dr. Rajesh Menon for atrial fibrillation, but she had been taking undisclosed Diltiazem at home. The combination of two AV-nodal blocking agents caused severe bradycardia (34 bpm) and hypotension, triggering a Code Blue and ICU transfer. The medication reconciliation process failed because Lakewood Community Clinic had not updated Mrs. Nguyen's medication list in the regional Health Information Exchange (HIE) since January 2025."
+  },
+  {
+    "id": 2,
+    "question": "Trace the complete supply chain impact on John Matthews' treatment: which supplier failed, what caused the failure, how was the shortage addressed, and what clinical risk did the delay create for this specific patient?",
+    "ground_truth_answer": "MedSupply Corp's New Jersey facility was shut down after an FDA compliance notice on February 27 regarding particulate contamination, causing a 6-day delay in Azithromycin IV delivery to Riverside General Hospital (expected March 4, delivered March 10). The hospital sourced emergency stock from PharmaDirect Inc at 2.3x (230%) the standard cost. The delay meant Dr. Emily Carter could not narrow Matthews' antibiotic therapy from empiric to targeted treatment for 72 extra hours (due to delayed sputum culture results compounded by the TechVita lab equipment malfunction), extending his broad-spectrum antibiotic course and increasing his risk of Clostridioides difficile infection."
+  },
+  {
+    "id": 3,
+    "question": "Which patients were clinically affected by the TechVita HemaFlow 9000 malfunction at Riverside Pathology Lab, and what specific treatment decision was delayed for each patient?",
+    "ground_truth_answer": "Three patients were clinically impacted: (1) John Matthews — sputum culture and sensitivity results delayed by 72 hours, preventing Dr. Carter from narrowing antibiotic therapy from empiric to targeted treatment. (2) Clara Nguyen — pharmacogenomic test (CYP2C9/VKORC1) for Warfarin dosing delayed by 48 hours, meaning initial Warfarin dosing was not genotype-guided. (3) Robert Fitzgerald — coagulation studies delayed, postponing his scheduled neurosurgical evaluation."
+  },
+  {
+    "id": 4,
+    "question": "How did equipment failures at two different hospitals and two different vendors create a cumulative diagnostic delay of nearly one week for Robert Fitzgerald, and what was ultimately found on his delayed MRI?",
+    "ground_truth_answer": "Robert Fitzgerald experienced two compounding equipment-related delays. First, at Riverside General Hospital, the TechVita HemaFlow 9000 hematology analyzer malfunction (March 7-10) delayed his coagulation studies, which could have impacted neurosurgical planning. Second, after transfer to St. Marcus Medical Center on March 8, his MRI Brain with epilepsy protocol was delayed by 3 days (March 8-10) because the NovaCare NeuroScan 3T MRI system was undergoing scheduled preventive maintenance. The MRI was finally performed on March 11 and revealed a small left temporal cavernous malformation, confirming the suspected seizure focus."
+  },
+  {
+    "id": 5,
+    "question": "What chain of events threatened to delay Maria Santos' second chemotherapy cycle, which organizations were involved, and why did the oncologist consider the delay particularly dangerous?",
+    "ground_truth_answer": "BlueCrest Health Insurance denied the Cyclophosphamide claim (Claim BCH-2025-CLM-44891) under Policy Exclusion 14.3(b), citing missing PET-CT staging documentation required for prior authorization of chemotherapy exceeding $15,000 per cycle. The second R-CHOP cycle, originally scheduled for March 24, faced potential delay pending insurance resolution. Dr. Priya Sharma expressed concern that any delay beyond two weeks could compromise treatment efficacy because Diffuse Large B-Cell Lymphoma (DLBCL) is an aggressive lymphoma requiring timely cycle completion. Hospital financial counselor Mark Rivera initiated a peer-to-peer review with BlueCrest's medical director Dr. Howard Chen to resolve the denial."
+  },
+  {
+    "id": 6,
+    "question": "Which two Riverside General Hospital patients experienced complications involving Warfarin, what was the root cause in each case, and how did their clinical outcomes differ?",
+    "ground_truth_answer": "Clara Nguyen and David Kowalski both had Warfarin-related complications. Nguyen was newly started on Warfarin 5mg by Dr. Menon for atrial fibrillation, but her adverse event was caused by an interaction between Metoprolol and undisclosed Diltiazem (not directly Warfarin), leading to bradycardia and ICU transfer; she recovered in 48 hours and was switched to Amiodarone. Kowalski had been on Warfarin since 2023 for a mechanical aortic valve replacement (performed by Dr. Menon) and presented with a supratherapeutic INR of 5.8 causing acute upper GI hemorrhage (hemoglobin 6.2 g/dL) from a duodenal ulcer; he required massive transfusion protocol, partial Warfarin reversal with Vitamin K, and emergent EGD by Dr. Lisa Park for hemostasis, followed by ICU admission."
+  },
+  {
+    "id": 7,
+    "question": "Across the three medication suppliers (MedSupply Corp, PharmaDirect Inc, GlobalMed Distributors), which specific medications were backordered or delayed in March 2025, which patients were affected by each shortage, and what workaround was used in each case?",
+    "ground_truth_answer": "MedSupply Corp: Azithromycin IV was delayed due to FDA-mandated production shutdown — affected John Matthews (Pulmonology ward); workaround was emergency procurement from PharmaDirect Inc at 230% cost markup. PharmaDirect Inc: Levetiracetam IV was backordered due to raw material shortage — affected Robert Fitzgerald; workaround was oral formulation substitution approved by Dr. Sarah Lin. PharmaDirect Inc also had Cyclophosphamide 1g vials backordered — affected Maria Santos (R-CHOP Cycle 1); workaround was fulfillment by GlobalMed Distributors at 30% premium, cost absorbed by St. Marcus Medical Center."
+  }
+]

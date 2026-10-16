@@ -1,0 +1,10 @@
+{
+  "host": "your-subdomain.i.tgcloud.io",
+  "username": "tigergraph",
+  "password": "your_password",
+  "graph": "MyGraph",
+  "restppPort": 443,
+  "gsPort": 14240,
+  "gsqlPort": 14240,
+  "ssl": true
+}

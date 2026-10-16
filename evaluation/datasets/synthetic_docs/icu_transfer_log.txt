@@ -1,0 +1,30 @@
+ICU Transfer and Census Log — Riverside General Hospital
+
+Report Period: March 8–12, 2025
+ICU Medical Director: Dr. James O'Brien
+ICU Capacity: 18 beds | Current Census: 16 occupied
+
+Transfer Log:
+
+1. Transfer In — March 9, 03:40 AM
+   Patient: Clara Nguyen (MRN: RGH-2024-09234)
+   From: Pulmonology Ward, Room 308
+   Reason: Adverse drug reaction — severe bradycardia and hypotension secondary to Metoprolol-Diltiazem interaction.
+   Attending on Transfer: Dr. James O'Brien
+   Consulting: Dr. Rajesh Menon (Cardiology)
+   ICU Bed Assigned: ICU-7
+   Status: Stabilized. Dopamine drip weaned by March 10 noon. Transferred back to telemetry unit March 11.
+
+2. Transfer In — March 10, 11:15 PM
+   Patient: David Kowalski (MRN: RGH-2024-09378)
+   From: Emergency Department
+   Reason: Acute upper GI hemorrhage with hemodynamic instability. Hemoglobin 6.2 g/dL. Patient is on Warfarin for mechanical aortic valve (prescribed by Dr. Menon in 2023).
+   Attending: Dr. O'Brien
+   ICU Bed Assigned: ICU-12
+   Interventions: 4 units packed RBCs transfused. Vitamin K 10mg IV administered. INR on admission: 5.8 (supratherapeutic). GI consult requested — Dr. Lisa Park (Gastroenterology) performed emergent EGD on March 11 identifying a bleeding duodenal ulcer.
+
+3. Near-Miss — March 12
+   Patient: John Matthews (MRN: RGH-2024-08817)
+   Note: Dr. Carter considered ICU transfer due to worsening hypoxemia (SpO2 88% on 6L NC). Decision deferred after respiratory therapy escalated to high-flow nasal cannula (40L, FiO2 60%) with improvement to SpO2 94%.
+
+ICU Staffing Note: Nurse-to-patient ratio maintained at 1:2 throughout the reporting period. No staffing shortages reported.

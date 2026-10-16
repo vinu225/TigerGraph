@@ -1,0 +1,15 @@
+Dr. Michael Torres — Weekly Internal Medicine Rounds Summary
+
+Riverside General Hospital
+Week of March 3-9, 2025
+Department: Internal Medicine
+
+Active Caseload Summary:
+
+1. Clara Nguyen (MRN: RGH-2024-09234): Admitted March 5 for recurrent syncope. Telemetry confirmed atrial fibrillation with RVR. Referred to Dr. Rajesh Menon (Cardiology) on March 6 for rate control and anticoagulation management. Patient subsequently experienced an adverse drug reaction on March 9 requiring ICU transfer. Case now primarily managed by Cardiology and Emergency Medicine.
+
+2. Robert Fitzgerald (MRN: RGH-2024-09301): Admitted March 5 for new-onset seizures. CT head unremarkable. Basic metabolic panel normal. Given the complexity of the case and need for epilepsy-specific workup, transferred to Dr. Sarah Lin at St. Marcus Medical Center's Level 4 Epilepsy Center on March 8. Coagulation studies ordered pre-transfer were delayed due to the Pathology Lab equipment malfunction, which could have impacted neurosurgical planning if a structural lesion requiring intervention had been found.
+
+3. Follow-up Note: Coordinating with Dr. Lin via regional HIE regarding Mr. Fitzgerald's progress. The same HIE system was flagged in the Nguyen adverse event for carrying outdated medication records from Lakewood Community Clinic. This raises broader concerns about HIE data reliability for inter-facility transfers.
+
+Administrative Note: Submitted two inter-facility transfer cases this week (Nguyen cardiology consult, Fitzgerald neurology referral). Both cases highlight the need for improved specialist access at Riverside to reduce transfer dependency on St. Marcus Medical Center.

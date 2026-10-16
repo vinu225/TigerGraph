@@ -1,0 +1,21 @@
+Oncology Treatment Summary — St. Marcus Medical Center
+
+Patient Name: Maria Santos
+MRN: SMC-2025-02087
+Date of Diagnosis: February 28, 2025
+Attending Oncologist: Dr. Priya Sharma, Department of Oncology
+Insurance Provider: BlueCrest Health Insurance (Policy #BC-502716)
+
+Clinical Summary:
+Mrs. Santos, a 52-year-old female, presented with progressive cervical lymphadenopathy, night sweats, and unintentional weight loss of 8 kg over two months. Excisional biopsy of a right cervical lymph node performed on February 25 at St. Marcus Medical Center confirmed Diffuse Large B-Cell Lymphoma (DLBCL), germinal center B-cell subtype, Ki-67 proliferation index 85%.
+
+Staging Workup:
+PET-CT scan (March 2) revealed hypermetabolic lymphadenopathy in cervical, mediastinal, and para-aortic regions (SUVmax 18.4). Bone marrow biopsy was negative for lymphoma involvement. Final staging: Stage IIIA.
+
+Treatment Plan:
+Dr. Sharma recommended 6 cycles of R-CHOP (Rituximab, Cyclophosphamide, Doxorubicin, Vincristine, Prednisone) administered every 21 days. Cycle 1 was administered on March 10 without complications. Pre-chemotherapy labs showed adequate organ function.
+
+Pharmacy Note:
+Cyclophosphamide was sourced from GlobalMed Distributors after PharmaDirect Inc reported a backorder on the 1g vial formulation. GlobalMed provided the medication at a 30% premium, which the hospital absorbed. Dr. Sharma flagged this cost escalation to the St. Marcus Supply Chain Committee.
+
+Supportive Care: Ondansetron for antiemetic prophylaxis, Pegfilgrastim for neutropenia prevention. Social work referral placed for financial counseling given insurance complications.

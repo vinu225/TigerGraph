@@ -1,0 +1,34 @@
+{
+  "db_config": {
+    "hostname": "http://host.docker.internal",
+    "gsPort": "14240",
+    "restppPort": "9000",
+    "username": "your_tigergraph_user",
+    "password": "your_tigergraph_password",
+    "graphname": "MyGraph"
+  },
+  "chat_config": {
+    "apiPort": "8002",
+    "dbPath": "/configs/chat-history.db",
+    "dbLogPath": "/configs/chat-history.log",
+    "logPath": "/configs/chat-history-app.log",
+    "conversationAccessRoles": []
+  },
+  "llm_config": {
+    "authentication_configuration": {
+      "GOOGLE_API_KEY": "YOUR_GEMINI_API_KEY_HERE"
+    },
+    "completion_service": {
+      "llm_service": "genai",
+      "llm_model": "gemini-3-flash-preview",
+      "model_kwargs": {
+        "temperature": 0.2
+      },
+      "prompt_path": "common/prompts/"
+    },
+    "embedding_service": {
+      "embedding_model_service": "genai",
+      "model_name": "models/text-embedding-004"
+    }
+  }
+}

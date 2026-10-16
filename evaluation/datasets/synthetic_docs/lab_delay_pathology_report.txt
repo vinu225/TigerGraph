@@ -1,0 +1,20 @@
+Riverside Pathology Lab — Incident Report: Delayed Results
+
+Incident ID: PATH-2025-0112
+Date: March 7–10, 2025
+Reported by: Dr. Anita Desai, Director of Pathology
+Equipment Vendor: TechVita Medical Systems
+
+Incident Summary:
+The Riverside Pathology Lab experienced a critical equipment malfunction in its automated hematology analyzer (TechVita HemaFlow 9000, Serial #HF9K-44821) beginning March 7, 2025. The analyzer produced erratic platelet counts and flagged false critical values, requiring manual verification of all complete blood count (CBC) results.
+
+Impact on Patient Care:
+- Patient John Matthews (MRN: RGH-2024-08817): Sputum culture and sensitivity results delayed by 72 hours. Dr. Emily Carter was unable to narrow antibiotic therapy from empiric to targeted treatment, extending his broad-spectrum antibiotic course and increasing risk of Clostridioides difficile infection.
+- Patient Clara Nguyen (MRN: RGH-2024-09234): Pharmacogenomic test for Warfarin dosing (CYP2C9/VKORC1) was delayed by 48 hours, meaning initial Warfarin dosing was not genotype-guided.
+- Patient Robert Fitzgerald (MRN: RGH-2024-09301): Coagulation studies delayed, postponing his scheduled neurosurgical evaluation.
+
+Vendor Response:
+TechVita Medical Systems dispatched a field service engineer on March 8. Diagnosis: firmware corruption in the optical detection module. A firmware patch (v3.2.1) was applied on March 9. Full recalibration completed March 10 at 14:00.
+
+Corrective Actions:
+Dr. Desai has requested that Riverside administration evaluate a backup analyzer contract with NovaCare Equipment to prevent future single-point-of-failure scenarios. All affected physicians were notified of result delays via the hospital's clinical communication system.

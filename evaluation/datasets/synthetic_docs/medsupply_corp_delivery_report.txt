@@ -1,0 +1,21 @@
+MedSupply Corp — Monthly Delivery Performance Report
+Region: Northeast Distribution Center
+Report Period: March 2025
+Prepared by: Operations Manager, Linda Hargrove
+
+Summary:
+MedSupply Corp experienced significant supply chain disruptions during March 2025 affecting deliveries to multiple healthcare facilities in the northeast corridor. A manufacturing shutdown at our primary antibiotic production facility in New Jersey resulted in critical shortages of several medications, including Azithromycin (IV formulation), Ceftriaxone, and Amoxicillin-Clavulanate.
+
+Affected Clients:
+- Riverside General Hospital: Azithromycin IV shipment (PO #RGH-03-2781) delayed by 6 days. Expected delivery March 4, actual delivery March 10.
+- St. Marcus Medical Center: Ceftriaxone bulk order (PO #SMC-03-1192) delayed by 4 days. Partial fulfillment on March 7.
+- Lakewood Community Clinic: Amoxicillin-Clavulanate delayed indefinitely; redirected to alternate supplier GlobalMed Distributors.
+
+Root Cause Analysis:
+The FDA issued a compliance notice to our New Jersey facility on February 27 regarding particulate contamination in sterile injectable production lines. Production was halted for remediation. Quality assurance testing resumed on March 8, with full production restored March 12.
+
+Impact Assessment:
+Riverside General Hospital reported that the Azithromycin delay affected treatment timelines for at least three inpatients in their Pulmonology department. Hospital pharmacy had to source emergency stock from PharmaDirect Inc at 2.3x standard cost.
+
+Corrective Actions:
+MedSupply Corp has established a secondary production agreement with a facility in North Carolina. All affected clients will receive a 15% credit on Q2 orders as compensation.

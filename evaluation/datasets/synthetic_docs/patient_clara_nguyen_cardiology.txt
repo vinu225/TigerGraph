@@ -1,0 +1,18 @@
+Cardiology Consultation Report — Riverside General Hospital
+
+Patient Name: Clara Nguyen
+MRN: RGH-2024-09234
+Date of Consultation: March 6, 2025
+Consulting Physician: Dr. Rajesh Menon, Department of Cardiology
+Referring Physician: Dr. Michael Torres, Department of Internal Medicine
+Insurance Provider: Meridian Life Coverage (Policy #MLC-773012)
+
+Reason for Referral: Mrs. Nguyen, a 67-year-old female, was admitted on March 5 under Dr. Torres for evaluation of recurrent syncopal episodes. Telemetry monitoring revealed paroxysmal atrial fibrillation with rapid ventricular response (heart rate 142 bpm). Dr. Torres requested urgent cardiology consultation.
+
+Cardiac Assessment: Echocardiogram performed on March 6 demonstrated mild left ventricular hypertrophy with preserved ejection fraction (EF 52%). No valvular abnormalities detected. BNP level was mildly elevated at 320 pg/mL.
+
+Medication Orders: Dr. Menon initiated rate control with Metoprolol Succinate 50mg daily and anticoagulation with Warfarin 5mg daily. INR monitoring was ordered every 48 hours. A pharmacogenomic test (CYP2C9/VKORC1) was sent to Riverside Pathology Lab to guide Warfarin dosing.
+
+Special Note: Dr. Menon flagged a potential drug interaction concern. Mrs. Nguyen's current medication list includes Lisinopril 20mg (prescribed by her primary care physician at Lakewood Community Clinic) and Metformin 1000mg for Type 2 Diabetes. The combination of Warfarin with her existing NSAID use (Ibuprofen PRN) poses elevated bleeding risk. Dr. Menon recommended discontinuing Ibuprofen and substituting with Acetaminophen.
+
+Follow-up: Outpatient Holter monitor scheduled for March 20 at Riverside Cardiology Clinic.

@@ -1,0 +1,27 @@
+Insurance Claim Denial Notice — BlueCrest Health Insurance
+
+Claim Reference: BCH-2025-CLM-44891
+Date of Notice: March 14, 2025
+Policyholder: Maria Santos
+Policy Number: BC-502716
+Provider: St. Marcus Medical Center
+Attending Physician: Dr. Priya Sharma, Department of Oncology
+
+Claim Details:
+Service Date: March 10, 2025
+Procedure: Administration of Cyclophosphamide 750mg/m² IV infusion as part of CHOP chemotherapy regimen for newly diagnosed Diffuse Large B-Cell Lymphoma (DLBCL), Stage IIIA.
+
+Denial Reason:
+BlueCrest Health Insurance has denied this claim under Policy Exclusion 14.3(b) — Experimental or Non-Standard Protocol. The denial states that the submitted treatment plan does not include documentation of PET-CT staging scan results, which is required for prior authorization of chemotherapy regimens exceeding $15,000 per cycle.
+
+Provider Response Required:
+St. Marcus Medical Center must submit the following within 30 days to initiate appeal:
+1. Complete PET-CT scan report with SUV values
+2. Pathology report confirming histological subtype
+3. Tumor board recommendation letter
+4. Dr. Sharma's written justification for treatment urgency
+
+Patient Impact:
+Mrs. Santos, a 52-year-old female, has been informed of the claim denial. Her second chemotherapy cycle, originally scheduled for March 24, may be delayed pending insurance resolution. Dr. Sharma has expressed concern that any delay beyond two weeks could compromise treatment efficacy, as DLBCL is an aggressive lymphoma requiring timely cycle completion.
+
+The hospital's financial counselor, Mark Rivera, has initiated a peer-to-peer review request with BlueCrest's medical director, Dr. Howard Chen.

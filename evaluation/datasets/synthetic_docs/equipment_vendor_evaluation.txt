@@ -1,0 +1,21 @@
+Equipment Vendor Evaluation Report — Regional Healthcare Consortium
+
+Report Date: March 15, 2025
+Prepared by: Marcus Webb, VP of Operations, Regional Healthcare Consortium
+Vendors Evaluated: TechVita Medical Systems, NovaCare Equipment
+
+TechVita Medical Systems:
+Current Contracts:
+- Riverside General Hospital: Hematology analyzer (HemaFlow 9000), chemistry analyzer (ChemVita 5500), and point-of-care testing devices. Annual service contract value: $285,000.
+- St. Marcus Medical Center: Blood gas analyzers and urinalysis systems. Contract value: $142,000.
+
+Performance Issues (Q1 2025):
+The HemaFlow 9000 firmware failure at Riverside (March 7-10) resulted in delayed lab results for multiple patients. Field service response time was 18 hours, exceeding the contractual SLA of 4 hours. TechVita attributed the delay to technician availability in the northeast region.
+
+NovaCare Equipment:
+Current Contracts:
+- St. Marcus Medical Center: NeuroScan 3T MRI system (installed February 2025). Annual service contract: $420,000. System experienced calibration issues during March 8-9, causing scheduling delays for neurology patients including a referred epilepsy case from Riverside General.
+- Riverside General Hospital: Currently evaluating NovaCare as backup pathology equipment vendor per Dr. Anita Desai's recommendation following the TechVita incident.
+
+Recommendation:
+The consortium recommends dual-vendor strategies for critical diagnostic equipment. Both vendors have been notified that SLA penalties will be enforced for Q2 2025 violations. A formal RFP for backup hematology and imaging equipment will be issued by April 1, 2025.

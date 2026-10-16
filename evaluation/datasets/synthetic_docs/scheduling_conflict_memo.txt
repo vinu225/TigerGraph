@@ -1,0 +1,27 @@
+Department Scheduling Conflict Memo — St. Marcus Medical Center
+
+From: Dr. Sarah Lin, Department of Neurology
+To: Dr. Kenneth Marshall, Chief Medical Officer
+CC: Radiology Department Chair, Facilities Management
+Date: March 9, 2025
+Subject: MRI Scheduling Delays Impacting Epilepsy Patients
+
+Dear Dr. Marshall,
+
+I am writing to formally document a scheduling conflict that has adversely affected patient care in the Neurology department.
+
+On March 8, I received a transfer patient, Robert Fitzgerald (MRN: SMC-2025-02114), referred from Riverside General Hospital by Dr. Michael Torres for new-onset seizure evaluation. An MRI Brain with epilepsy protocol was urgently needed to guide treatment decisions.
+
+However, the MRI suite housing our NovaCare NeuroScan 3T system was unavailable from March 8-10 due to scheduled preventive maintenance by NovaCare Equipment. This maintenance was planned weeks in advance but was not communicated to the Neurology department through the standard scheduling system.
+
+As a result, Mr. Fitzgerald's MRI was delayed by 3 days (performed March 11). During this window, I had to manage his seizure disorder empirically with Levetiracetam without the benefit of structural imaging. Fortunately, the MRI ultimately revealed a small left temporal cavernous malformation, confirming the suspected seizure focus.
+
+I recommend the following corrective actions:
+1. Equipment maintenance schedules must be integrated into the clinical scheduling system
+2. Departments with urgent imaging needs should receive 72-hour advance notification
+3. A backup MRI access agreement with Riverside General should be explored
+
+This delay, combined with the coagulation study delays from Riverside's lab equipment issues, has resulted in a cumulative diagnostic delay of nearly one week for this patient.
+
+Regards,
+Dr. Sarah Lin

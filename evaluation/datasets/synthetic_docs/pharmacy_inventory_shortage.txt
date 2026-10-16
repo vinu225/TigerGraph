@@ -1,0 +1,30 @@
+Pharmacy Inventory Alert — Combined Report
+
+Issued by: Regional Healthcare Pharmacy Consortium
+Date: March 12, 2025
+Prepared by: Chief Pharmacist Dr. Angela Wu (Riverside General Hospital) and Pharmacy Director Samuel Okafor (St. Marcus Medical Center)
+
+Critical Shortage Notifications:
+
+1. Azithromycin IV (500mg vials):
+   Supplier: MedSupply Corp — Production halted due to FDA compliance action.
+   Current Stock at Riverside General: 12 vials (estimated 3-day supply at current utilization).
+   Backup Source: PharmaDirect Inc — Emergency order placed March 6, received March 8. Cost increase: 230% above contract price.
+   Affected Patients: Pulmonology ward patients on IV antibiotic protocols, including MRN RGH-2024-08817.
+
+2. Levetiracetam IV (500mg/5mL):
+   Supplier: PharmaDirect Inc — Backorder since March 1 due to raw material shortage.
+   Current Stock at St. Marcus: 0 vials.
+   Workaround: Oral formulation substituted where clinically appropriate. Dr. Sarah Lin approved oral conversion for patient MRN SMC-2025-02114.
+   Estimated Resupply: March 18 via GlobalMed Distributors.
+
+3. Cyclophosphamide (1g vials):
+   Supplier: PharmaDirect Inc — Backorder.
+   Alternative: GlobalMed Distributors fulfilled St. Marcus order (PO #SMC-03-2201) at 30% premium.
+   Impact: Oncology department absorbed additional cost for patient MRN SMC-2025-02087 (R-CHOP Cycle 1).
+
+4. Warfarin 5mg tablets:
+   Supplier: MedSupply Corp — Normal supply. No shortage reported.
+   Note: Riverside pharmacy maintains 30-day buffer stock.
+
+Recommendation: Both hospitals should accelerate dual-supplier contracting to mitigate future single-source dependency risks. Quarterly supply chain review meetings with MedSupply Corp, PharmaDirect Inc, and GlobalMed Distributors have been proposed.

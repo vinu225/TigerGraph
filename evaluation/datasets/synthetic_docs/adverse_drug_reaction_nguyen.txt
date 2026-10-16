@@ -1,0 +1,21 @@
+Adverse Drug Reaction Report — Riverside General Hospital
+
+Report ID: ADR-2025-0047
+Date of Event: March 9, 2025
+Patient Name: Clara Nguyen
+MRN: RGH-2024-09234
+Reporting Physician: Dr. James O'Brien, Department of Emergency Medicine
+
+Event Description:
+Mrs. Nguyen was found unresponsive in Room 308 at approximately 02:15 AM by night shift nurse Patricia Holloway. Patient exhibited severe bradycardia (heart rate 34 bpm), hypotension (BP 78/42 mmHg), and altered mental status. A Code Blue was activated.
+
+Emergency Response:
+Dr. O'Brien arrived within 3 minutes. Atropine 1mg IV was administered followed by dopamine infusion. Patient was stabilized and transferred to the Intensive Care Unit (ICU) at 03:40 AM. Continuous telemetry and arterial line monitoring were initiated.
+
+Suspected Cause:
+Review of medication administration records revealed that Metoprolol Succinate dosing had been administered concurrently with a previously undocumented home medication — Diltiazem 120mg — that Mrs. Nguyen had been taking but failed to disclose during admission. The combination of two AV-nodal blocking agents likely caused the profound bradycardia.
+
+Pharmacy Review:
+Chief Pharmacist Dr. Angela Wu confirmed the interaction as a Severity Level 1 contraindication. The medication reconciliation process failed to capture the Diltiazem because Mrs. Nguyen's medication list from Lakewood Community Clinic was not updated in the regional health information exchange (HIE) since January 2025.
+
+Outcome: Patient recovered in ICU over 48 hours. Metoprolol was discontinued and replaced with Amiodarone 200mg daily under Dr. Menon's supervision. Incident reported to the hospital Patient Safety Committee.

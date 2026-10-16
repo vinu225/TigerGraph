@@ -1,0 +1,26 @@
+Emergency Department Record — Riverside General Hospital
+
+Patient Name: David Kowalski
+MRN: RGH-2024-09378
+Date of Presentation: March 10, 2025, 21:47
+Attending Physician: Dr. James O'Brien, Emergency Medicine
+Insurance Provider: Meridian Life Coverage (Policy #MLC-881204)
+
+Triage Assessment:
+Mr. Kowalski, a 61-year-old male, arrived via EMS after collapsing at home with hematemesis (vomiting bright red blood, approximately 500mL estimated). Wife reports he has been taking Warfarin since 2023 following mechanical aortic valve replacement surgery performed by Dr. Rajesh Menon at Riverside General Hospital. Patient also takes Lisinopril 10mg daily and Aspirin 81mg daily.
+
+Emergency Workup:
+- Hemoglobin: 6.2 g/dL (critical low)
+- INR: 5.8 (supratherapeutic; target range 2.5-3.5 for mechanical valve)
+- Lactate: 4.1 mmol/L
+- Blood type: O-positive, crossmatch ordered
+
+Patient was hemodynamically unstable (BP 82/50, HR 118). Massive transfusion protocol activated. Four units packed RBCs and 2 units fresh frozen plasma administered.
+
+Reversal Strategy:
+Given the mechanical valve, complete Warfarin reversal was contraindicated. Dr. O'Brien administered Vitamin K 10mg IV (partial reversal) and consulted Dr. Menon for anticoagulation management post-stabilization.
+
+GI Consultation:
+Dr. Lisa Park (Gastroenterology) performed emergent EGD on March 11 identifying a Forrest Ib duodenal ulcer. Hemostasis achieved with epinephrine injection and bipolar cautery.
+
+Disposition: Transferred to ICU (ICU-12) at 23:15. Cardiology follow-up with Dr. Menon scheduled for anticoagulation bridge planning.

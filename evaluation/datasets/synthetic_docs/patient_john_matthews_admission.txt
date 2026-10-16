@@ -1,0 +1,19 @@
+Patient Admission Record — Riverside General Hospital
+
+Patient Name: John Matthews
+MRN: RGH-2024-08817
+Date of Admission: March 3, 2025
+Admitting Physician: Dr. Emily Carter, Department of Pulmonology
+Insurance Provider: BlueCrest Health Insurance (Policy #BC-441927)
+
+Chief Complaint: Severe respiratory distress, productive cough with hemoptysis, and persistent fever (39.2°C) for five days.
+
+Clinical History: Mr. Matthews, a 58-year-old male with a history of COPD and Type 2 Diabetes, presented to the Emergency Department at Riverside General Hospital after experiencing worsening dyspnea. Initial chest X-ray showed bilateral infiltrates consistent with community-acquired pneumonia. Arterial blood gas analysis indicated moderate hypoxemia (PaO2 62 mmHg).
+
+Treatment Plan: Dr. Carter initiated empiric antibiotic therapy with intravenous Azithromycin (500 mg daily) and Ceftriaxone (2g IV daily). Supplemental oxygen was administered via nasal cannula at 4L/min. Pulmonary function tests were ordered for Day 3 of admission.
+
+Lab Orders: Complete blood count, comprehensive metabolic panel, sputum culture and sensitivity, procalcitonin level, and D-dimer were ordered through the Riverside Pathology Lab. Results were expected within 24–48 hours.
+
+Nursing Notes: Patient placed in Room 412, Pulmonology Ward. Fall risk assessment score: moderate. Dietary consult requested for diabetic meal plan. Respiratory therapy initiated with nebulized albuterol every 6 hours.
+
+Dr. Carter also requested a cardiology consult from Dr. Rajesh Menon due to the patient's elevated troponin levels (0.08 ng/mL) noted on admission labs.

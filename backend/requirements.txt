@@ -1,0 +1,35 @@
+# ── MedGraphRAG Backend Dependencies ──
+# Core API
+fastapi>=0.115.0
+uvicorn[standard]>=0.34.0
+pydantic>=2.11.0
+python-dotenv>=1.0.0
+python-multipart>=0.0.18
+
+# Google Gemini
+google-genai>=1.10.0
+
+# LangChain + RAG
+langchain>=0.3.0
+langchain-community>=0.3.0
+langchain-text-splitters>=0.3.0
+langchain-chroma>=0.2.0
+langchain-huggingface>=0.1.0
+
+# Embeddings & ML
+sentence-transformers>=4.0.0
+huggingface-hub>=0.30.0
+
+# Vector Store
+chromadb>=1.0.0
+
+# Document Processing
+pypdf>=5.0.0
+
+# HTTP
+httpx>=0.28.0
+requests>=2.32.0
+
+# Utilities
+numpy>=2.0.0
+tqdm>=4.60.0

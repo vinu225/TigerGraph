@@ -1,0 +1,20 @@
+Neurology Referral and Treatment Plan — St. Marcus Medical Center
+
+Patient Name: Robert Fitzgerald
+MRN: RGH-2024-09301 (Riverside), SMC-2025-02114 (St. Marcus)
+Date of Referral: March 8, 2025
+Referring Physician: Dr. Michael Torres, Internal Medicine, Riverside General Hospital
+Receiving Physician: Dr. Sarah Lin, Department of Neurology, St. Marcus Medical Center
+Insurance Provider: National Care Alliance (Policy #NCA-558190)
+
+Referral Summary:
+Mr. Fitzgerald, a 45-year-old male, was initially admitted to Riverside General on March 5 after experiencing two witnessed tonic-clonic seizures at his workplace. Dr. Torres performed initial workup including CT head (unremarkable) and basic labs. Given the new-onset seizure presentation and need for specialized epilepsy evaluation, Dr. Torres referred the patient to Dr. Sarah Lin at St. Marcus Medical Center, which operates the region's only Level 4 Epilepsy Center.
+
+Transfer occurred on March 8. Upon arrival at St. Marcus, Dr. Lin ordered a 72-hour continuous video-EEG monitoring study. MRI Brain with epilepsy protocol was scheduled but delayed due to a scheduling conflict — the MRI suite was undergoing maintenance by NovaCare Equipment for the recently installed NovaCare NeuroScan 3T system.
+
+Preliminary Assessment:
+Dr. Lin's initial impression is focal epilepsy with secondary generalization, likely temporal lobe origin. She initiated Levetiracetam 500mg twice daily pending EEG and MRI results.
+
+Medication Note: Levetiracetam was sourced from PharmaDirect Inc after St. Marcus pharmacy reported low inventory of the IV formulation. The oral formulation was substituted.
+
+Follow-up coordination between Dr. Torres (Riverside) and Dr. Lin (St. Marcus) is ongoing via the regional HIE portal.

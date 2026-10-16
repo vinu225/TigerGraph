@@ -1,0 +1,176 @@
+{
+  "llm_only": {
+    "average_precision": 0.496692,
+    "average_recall": 0.537844,
+    "average_f1": 0.515269,
+    "num_questions": 7,
+    "compute_time_seconds": 125.85,
+    "per_question_scores": [
+      {
+        "id": 1,
+        "question": "What sequence of failures led to Clara Nguyen's ICU transfer on March 9, and which external healthcare facility was responsible for the outdated medication data that contributed to the adverse event?",
+        "precision": 0.460086,
+        "recall": 0.546,
+        "f1": 0.499374
+      },
+      {
+        "id": 2,
+        "question": "Trace the complete supply chain impact on John Matthews' treatment: which supplier failed, what caused the failure, how was the shortage addressed, and what clinical risk did the delay create for this specific patient?",
+        "precision": 0.498321,
+        "recall": 0.572895,
+        "f1": 0.533012
+      },
+      {
+        "id": 3,
+        "question": "Which patients were clinically affected by the TechVita HemaFlow 9000 malfunction at Riverside Pathology Lab, and what specific treatment decision was delayed for each patient?",
+        "precision": 0.523,
+        "recall": 0.469729,
+        "f1": 0.494935
+      },
+      {
+        "id": 4,
+        "question": "How did equipment failures at two different hospitals and two different vendors create a cumulative diagnostic delay of nearly one week for Robert Fitzgerald, and what was ultimately found on his delayed MRI?",
+        "precision": 0.558478,
+        "recall": 0.592131,
+        "f1": 0.574812
+      },
+      {
+        "id": 5,
+        "question": "What chain of events threatened to delay Maria Santos' second chemotherapy cycle, which organizations were involved, and why did the oncologist consider the delay particularly dangerous?",
+        "precision": 0.463111,
+        "recall": 0.537525,
+        "f1": 0.497551
+      },
+      {
+        "id": 6,
+        "question": "Which two Riverside General Hospital patients experienced complications involving Warfarin, what was the root cause in each case, and how did their clinical outcomes differ?",
+        "precision": 0.482278,
+        "recall": 0.561709,
+        "f1": 0.518972
+      },
+      {
+        "id": 7,
+        "question": "Across the three medication suppliers (MedSupply Corp, PharmaDirect Inc, GlobalMed Distributors), which specific medications were backordered or delayed in March 2025, which patients were affected by each shortage, and what workaround was used in each case?",
+        "precision": 0.491572,
+        "recall": 0.484922,
+        "f1": 0.488224
+      }
+    ]
+  },
+  "traditional_rag": {
+    "average_precision": 0.463625,
+    "average_recall": 0.53466,
+    "average_f1": 0.496317,
+    "num_questions": 7,
+    "compute_time_seconds": 83.739,
+    "per_question_scores": [
+      {
+        "id": 1,
+        "question": "What sequence of failures led to Clara Nguyen's ICU transfer on March 9, and which external healthcare facility was responsible for the outdated medication data that contributed to the adverse event?",
+        "precision": 0.486936,
+        "recall": 0.580525,
+        "f1": 0.529627
+      },
+      {
+        "id": 2,
+        "question": "Trace the complete supply chain impact on John Matthews' treatment: which supplier failed, what caused the failure, how was the shortage addressed, and what clinical risk did the delay create for this specific patient?",
+        "precision": 0.448225,
+        "recall": 0.505801,
+        "f1": 0.475275
+      },
+      {
+        "id": 3,
+        "question": "Which patients were clinically affected by the TechVita HemaFlow 9000 malfunction at Riverside Pathology Lab, and what specific treatment decision was delayed for each patient?",
+        "precision": 0.483173,
+        "recall": 0.499923,
+        "f1": 0.491405
+      },
+      {
+        "id": 4,
+        "question": "How did equipment failures at two different hospitals and two different vendors create a cumulative diagnostic delay of nearly one week for Robert Fitzgerald, and what was ultimately found on his delayed MRI?",
+        "precision": 0.464712,
+        "recall": 0.556248,
+        "f1": 0.506377
+      },
+      {
+        "id": 5,
+        "question": "What chain of events threatened to delay Maria Santos' second chemotherapy cycle, which organizations were involved, and why did the oncologist consider the delay particularly dangerous?",
+        "precision": 0.439017,
+        "recall": 0.524187,
+        "f1": 0.477836
+      },
+      {
+        "id": 6,
+        "question": "Which two Riverside General Hospital patients experienced complications involving Warfarin, what was the root cause in each case, and how did their clinical outcomes differ?",
+        "precision": 0.470406,
+        "recall": 0.537202,
+        "f1": 0.50159
+      },
+      {
+        "id": 7,
+        "question": "Across the three medication suppliers (MedSupply Corp, PharmaDirect Inc, GlobalMed Distributors), which specific medications were backordered or delayed in March 2025, which patients were affected by each shortage, and what workaround was used in each case?",
+        "precision": 0.452908,
+        "recall": 0.538734,
+        "f1": 0.492107
+      }
+    ]
+  },
+  "graph_rag": {
+    "average_precision": 0.610601,
+    "average_recall": 0.766318,
+    "average_f1": 0.67925,
+    "num_questions": 7,
+    "compute_time_seconds": 61.657,
+    "per_question_scores": [
+      {
+        "id": 1,
+        "question": "What sequence of failures led to Clara Nguyen's ICU transfer on March 9, and which external healthcare facility was responsible for the outdated medication data that contributed to the adverse event?",
+        "precision": 0.577459,
+        "recall": 0.761357,
+        "f1": 0.656778
+      },
+      {
+        "id": 2,
+        "question": "Trace the complete supply chain impact on John Matthews' treatment: which supplier failed, what caused the failure, how was the shortage addressed, and what clinical risk did the delay create for this specific patient?",
+        "precision": 0.637892,
+        "recall": 0.800024,
+        "f1": 0.709818
+      },
+      {
+        "id": 3,
+        "question": "Which patients were clinically affected by the TechVita HemaFlow 9000 malfunction at Riverside Pathology Lab, and what specific treatment decision was delayed for each patient?",
+        "precision": 0.662582,
+        "recall": 0.8313,
+        "f1": 0.737413
+      },
+      {
+        "id": 4,
+        "question": "How did equipment failures at two different hospitals and two different vendors create a cumulative diagnostic delay of nearly one week for Robert Fitzgerald, and what was ultimately found on his delayed MRI?",
+        "precision": 0.681097,
+        "recall": 0.798592,
+        "f1": 0.73518
+      },
+      {
+        "id": 5,
+        "question": "What chain of events threatened to delay Maria Santos' second chemotherapy cycle, which organizations were involved, and why did the oncologist consider the delay particularly dangerous?",
+        "precision": 0.568051,
+        "recall": 0.770275,
+        "f1": 0.653885
+      },
+      {
+        "id": 6,
+        "question": "Which two Riverside General Hospital patients experienced complications involving Warfarin, what was the root cause in each case, and how did their clinical outcomes differ?",
+        "precision": 0.596078,
+        "recall": 0.703078,
+        "f1": 0.645172
+      },
+      {
+        "id": 7,
+        "question": "Across the three medication suppliers (MedSupply Corp, PharmaDirect Inc, GlobalMed Distributors), which specific medications were backordered or delayed in March 2025, which patients were affected by each shortage, and what workaround was used in each case?",
+        "precision": 0.551051,
+        "recall": 0.699599,
+        "f1": 0.616503
+      }
+    ]
+  }
+}
