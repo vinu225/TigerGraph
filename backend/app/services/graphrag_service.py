@@ -1,103 +1,90 @@
 import time
+import re
+from typing import List
+from app.services.vector.factory import get_vector_store
+from app.services.graph.factory import get_graph_store
+from app.services.llm_service import generate_llm_response
 
-from google import genai
 
-from app.core.config import settings
-from app.services.vectorstore_service import get_vectorstore
-from app.utils.pricing import calculate_cost
-
-client = genai.Client(
-    api_key=settings.GEMINI_API_KEY
-)
+def extract_potential_entities(query: str) -> List[str]:
+    """
+    Extracts capitalized multi-word phrases and key nouns from query
+    as entity candidates for graph lookup.
+    """
+    # Match capitalized terms (e.g. "Mercy Hospital", "Amoxicillin", "Dr. Smith")
+    candidates = re.findall(r"\b[A-Z][a-zA-Z0-9_\-\.]+(?:\s+[A-Z][a-zA-Z0-9_\-\.]+)*\b", query)
+    # Also include significant words longer than 4 chars
+    words = [w for w in re.findall(r"\b[a-zA-Z]{5,}\b", query) if w.lower() not in {"which", "where", "there", "about", "could", "would", "patient", "hospital"}]
+    combined = list(set(candidates + words))
+    return combined[:6]
 
 
 async def generate_graphrag_response(query: str):
     """
-    Simulates a GraphRAG pipeline by performing retrieval with
-    extra relationship-aware context, then prompting the LLM to
-    reason over entities and relationships (multi-hop).
+    Executes true GraphRAG:
+    1. Hybrid retrieval across documents in LanceDB (BM25 + Dense Vectors).
+    2. Multi-hop traversal across entities & relationships in KùzuDB (openCypher).
+    3. Graph-augmented synthesis via Qwen 2.5 / configured LLM.
     """
-
     start_time = time.time()
 
-    vectorstore = get_vectorstore()
+    vectorstore = get_vector_store()
+    graphstore = get_graph_store()
 
-    retriever = vectorstore.as_retriever(
-        search_kwargs={"k": 5}
-    )
+    # Step 1: Hybrid Document Retrieval from LanceDB
+    retrieved_chunks = await vectorstore.search(query, top_k=5, query_type="hybrid")
 
-    retrieved_docs = retriever.invoke(query)
-
-    # Build a richer, graph-style context by extracting
-    # source metadata and simulating entity/relationship awareness
     chunks_with_meta = []
-    for doc in retrieved_docs:
+    for doc in retrieved_chunks:
         source = doc.metadata.get("source", "unknown")
         page = doc.metadata.get("page", "?")
-        chunks_with_meta.append(
-            f"[Source: {source}, Page: {page}]\n{doc.page_content}"
-        )
+        chunks_with_meta.append(f"[Source: {source}, Page: {page}]\n{doc.text}")
 
-    context = "\n\n---\n\n".join(chunks_with_meta)
+    doc_context = "\n\n---\n\n".join(chunks_with_meta)
 
-    prompt = f"""You are an advanced healthcare AI assistant using a GraphRAG 
-(Graph-based Retrieval Augmented Generation) approach.
+    # Step 2: Knowledge Graph Traversal from KùzuDB
+    candidates = extract_potential_entities(query)
+    graph_paths = await graphstore.find_subgraph(candidates, max_hops=2, limit=25)
 
-You must:
-1. Identify key entities (patients, medications, diagnoses, procedures, providers) 
-   mentioned in the context.
-2. Trace relationships and causal pathways between these entities.
-3. Perform multi-hop reasoning across the document chunks to answer the question.
-4. Clearly reference which parts of the context support your answer.
+    graph_triples = []
+    for p in graph_paths:
+        graph_triples.append(f"({p.source_name}) -[{p.relation}]-> ({p.target_name})")
 
-Context (retrieved from knowledge graph):
-{context}
+    if graph_triples:
+        graph_context = "Knowledge Graph Entity Pathways:\n" + "\n".join(graph_triples)
+    else:
+        graph_context = "Knowledge Graph Entity Pathways: (No direct matching entity nodes found in graph store)"
 
-Question:
-{query}
-
-Provide a comprehensive, well-structured answer that demonstrates multi-hop 
-reasoning across the entities and relationships found in the documents."""
-
-    try:
-        response = client.models.generate_content(
-            model=settings.LLM_MODEL,
-            contents=prompt
-        )
-    except Exception as e:
-        error_msg = str(e)
-        if "RESOURCE_EXHAUSTED" in error_msg or "quota" in error_msg.lower() or "429" in error_msg:
-            raise Exception(
-                "API_KEY_EXHAUSTED: Your Google Gemini API key has run out of quota. "
-                "Please update your API key in the backend .env file and restart."
-            )
-        raise
-
-    latency = round(time.time() - start_time, 2)
-
-    usage = getattr(response, "usage_metadata", None)
-
-    prompt_tokens = 0
-    completion_tokens = 0
-    total_tokens = 0
-
-    if usage:
-        prompt_tokens = getattr(usage, "prompt_token_count", 0)
-        completion_tokens = getattr(usage, "candidates_token_count", 0)
-        total_tokens = prompt_tokens + completion_tokens
-
-    cost = calculate_cost(
-        prompt_tokens,
-        completion_tokens
+    # Step 3: Synthesis Prompt
+    system_prompt = (
+        "You are an advanced healthcare AI assistant using a GraphRAG "
+        "(Graph-based Retrieval Augmented Generation) approach.\n"
+        "You must:\n"
+        "1. Trace relationships and causal pathways between entities using the graph context.\n"
+        "2. Perform multi-hop reasoning across the document chunks to answer the question.\n"
+        "3. Explicitly reference supporting evidence from the context."
     )
 
+    prompt = (
+        f"Context from Knowledge Graph:\n{graph_context}\n\n"
+        f"Context from Retrieved Documents:\n{doc_context}\n\n"
+        f"Question:\n{query}\n\n"
+        "Provide a comprehensive, evidence-grounded answer demonstrating multi-hop reasoning."
+    )
+
+    llm_result = await generate_llm_response(prompt, system_prompt=system_prompt)
+    latency = round(time.time() - start_time, 2)
+
     return {
-        "answer": response.text,
-        "retrieved_chunks": len(retrieved_docs),
-        "context": context,
-        "tokens_used": total_tokens,
-        "prompt_tokens": prompt_tokens,
-        "completion_tokens": completion_tokens,
+        "answer": llm_result["answer"],
+        "retrieved_chunks": len(retrieved_chunks),
+        "graph_paths_found": len(graph_paths),
+        "graph_context": graph_context,
+        "context": doc_context,
+        "tokens_used": llm_result["tokens_used"],
+        "prompt_tokens": llm_result["prompt_tokens"],
+        "completion_tokens": llm_result["completion_tokens"],
         "latency": latency,
-        "cost": cost
+        "cost": llm_result["cost"],
+        "model": llm_result["model"]
     }

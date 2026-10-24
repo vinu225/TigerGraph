@@ -110,11 +110,15 @@ def generate_report():
         report_lines.append("| Pipeline | Avg F1 |")
         report_lines.append("|----------|--------|")
         for pipeline in ["llm_only", "traditional_rag", "graph_rag"]:
-            pr = [r for r in bert_results if r.get("pipeline") == pipeline]
-            if pr:
-                f1s = [r.get("f1", 0) for r in pr]
-                avg_f1 = sum(f1s) / len(f1s) if f1s else 0
+            if isinstance(bert_results, dict) and pipeline in bert_results:
+                avg_f1 = bert_results[pipeline].get("average_f1", 0)
                 report_lines.append(f"| {pipeline} | {avg_f1:.4f} |")
+            elif isinstance(bert_results, list):
+                pr = [r for r in bert_results if r.get("pipeline") == pipeline]
+                if pr:
+                    f1s = [r.get("f1", 0) for r in pr]
+                    avg_f1 = sum(f1s) / len(f1s) if f1s else 0
+                    report_lines.append(f"| {pipeline} | {avg_f1:.4f} |")
         report_lines.append("")
 
     report_path = OUTPUTS_DIR / "benchmark_report.md"

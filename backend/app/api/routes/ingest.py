@@ -6,7 +6,7 @@ from app.services.rag_ingestion_service import ingest_pdf
 
 router = APIRouter(prefix="/api")
 
-UPLOAD_DIR = "datasets/raw"
+UPLOAD_DIR = "data/raw"
 
 os.makedirs(UPLOAD_DIR, exist_ok=True)
 
